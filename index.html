@@ -1,0 +1,3101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>依谷网</title>
+    <link href="./css/right_base.css" rel="stylesheet" type="text/css">
+    <link href="./css/css.css" rel="stylesheet" type="text/css">
+    <link href="./css/autocomplete.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/layer.css" id="layui_layer_skinlayercss" style="">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/common_1.js"></script>
+</head>
+<body>
+<span id="right_quick_link">
+<div class="mui-mbar-tabs">
+<div class="quick_links_wrap" style="width:40px"><div class="quick_link_mian">
+        <div class="quick_links_panel">
+            <div id="quick_links" class="quick_links">
+                <li class="quick_li">
+                    <a href="javascript:void(0);" class="mpbtn_recharge">
+                    <i class="chongzhi">
+                    <img src="images/ibar_sprites.png" alt="" width="35px" height="35px"/></i></a>
+                    <div class="mp_tooltip">个人中心<img class="icon_arrow_right_black" src="images/sanjiao.png" alt="" style="padding:0,margin:0"/></div>
+                </li>
+                <li id="shopCart">
+                    <a href="javascript:void(0);" class="message_list"><i class="message"><img src="images/car-right.png" width="18px" height="19px" alt="" /></i><div class="span">购物车</div><span class="cart_num">1</span></a>
+                </li>
+                <li class="quick_li">
+                    <a href="javascript:void(0);" class="mpbtn_histroy"><img src="images/zuji.png" width="40px" height="38px" left="0" alt="" /></a>
+                    <div class="mp_tooltip">我的足迹<img class="icon_arrow_right_black" src="images/sanjiao.png" alt="" style="padding:0,margin:0"/></div>
+                </li>
+                <li class="quick_li">
+                    <a href="javascript:void(0);" class="mpbtn_wdsc"><i class="wdsc"><img src="images/wdsc.png" width="35px" height="35px" alt="" /></i></a>
+                    <div class="mp_tooltip">我的收藏<img class="icon_arrow_right_black" src="images/sanjiao.png" alt="" style="padding:0,margin:0"/></div>
+                </li>
+            </div>
+            <div class="quick_toggle quick_links_allow_gotop">
+                <li class="quick_li">
+                    <a href="javascript:void(0);" ><img src="images/mp_tooltip.png" width="40px" height="38px" alt="" /></a>
+                    <div class="mp_tooltip">在线客服<img class="icon_arrow_right_black" src="images/sanjiao.png" alt="" style="padding:0,margin:0"/></div>
+                </li>
+                <li class="quick_li">
+                    <a href="javascript:void(0);" class="mpbtn_kfzx"><img src="images/mpbtn_kfzx.png" width="40px" height="38px" alt="" /></a>
+                    <div class="mp_tooltip">客服热线<img class="icon_arrow_right_black" src="images/sanjiao.png" alt="" style="padding:0,margin:0"/></div>
+                </li>
+                <li class="erweima">
+                    <a href="javascript:void(0);"><img src="images/mpbtn_qrcode.png" width="40px" height="38px" alt="" /></a>
+                    <div class="mp_qrcode" style="display: none;"><img src="images/wx.png" width="148" height="175"><i class="icon_arrow_white"></i></div>
+                </li>
+                <li><a href="javascript:void(0);" class="return_top"><img src="images/top.png"  width="40px" height="38px" alt="" /></a></li>
+            </div>
+        </div>
+        <!-- asdsadsadsad -->
+        <div id="quick_links_pop" class="quick_links_pop quick_mpbtn_recharge" style="left: 280px;z-index:99">
+            <!-- <a href="javascript:;" class="ibar_closebtn" title="关闭"></a>
+            <div class="ibar_plugin_title"><h3>个人中心</h3></div>
+            <div class="pop_panel">
+                <div class="i_user">
+                    <div class="i_user_p">
+                        <img src="images/index_gg_04.jpg">
+                    </div>
+                <div class="i_user_ti">
+                    <p>Hi,谷东</p>
+                    <ul>
+                        <li><a href="javascript:void(0);" ><img src="images/i_user_c.png"><span><br>个人中心</span></a></li>
+                        <li><a href="javascript:void(0);" ><img src="images/i_order_c.png"><span><br>我的订单</span></a></li>
+                        <li><a href="javascript:void(0);" ><img src="images/i_address_c.png"><span><br>地址管理</span></a></li>
+                    </ul>
+                    <ul>
+                        <div class="i_user_ti_wz">依谷服务</div>
+                        <li><img src="images/i_cart_c.png"><span><br>次日到达</span></li>
+                        <li><img src="images/i_wy_c.png"><span><br>货到网银</span></li>
+                        <li><img src="images/i_ps_c.png"><span><br>冷链配送</span></li>
+                        <li><img src="images/i_tk_c.png"><span><br>极速退款</span></li>
+                        <li><img src="images/i_yx_c.png"><span><br>基地优选</span></li>
+                    </ul>
+                </div>
+                </div>
+            <div class="i_logo_ti">
+                <img src="images/i_logo_c.png">
+            </div>
+
+            <!-- </div><div class="arrow"><i></i></div><div class="fix_bg"></div> -->
+        <!-- </div> -->
+        <!-- adsadsadsadsads -->
+    </div></div></div></div>
+
+</span>
+<div class="main-body">
+<div id="top">
+
+
+
+<div class="top-info">
+<div class="w12 pr">
+<div class="welcome"><span>欢迎光临依谷网！</span><a rel="nofollow" href="javascript:addToFavorite()">收藏依谷网</a></div>
+<ul>
+
+    <li class="denglu_index"><a href="html/sign_up.html">免费注册</a></li>
+    <li class="denglu_index"><a href="html/sign_in.html">登录</a></li>
+
+
+<li><a href="javascript:void(0);">购物车</a></li>
+<li class="erwm">关注依谷网<img src="images/wx.jpg" class="erwmimg"></li>
+</ul>
+</div></div>
+<div class="top-bj">
+
+    <div class="ad-top">
+        <div class="ad">
+        <ul style="width:100%;">
+         
+            <li><a href="javascript:void(0);"><img src="images/1550824215457.jpg" height="118px"></a></li>
+          
+          </ul>
+        </div>
+    </div>
+
+    <!-- 头部banner -->
+    <form action="http://www.egu365.com/categories.action" method="get" name="seo_form" id="seo_form">
+    <div class="top">
+        <div class="logo-title"><a href="javascript:void(0);">依谷网</a></div>
+        <div class="search-box"><input name="searchKey" id="searchKey" value="" type="text" class="s-input" placeholder="美早樱桃" autocomplete="off">
+            <input type="button" class="s-btn" id="search-bnt" value="搜索">
+            <p>
+                
+                    <a href="javascript:void(0);">杂粮养胃</a>
+                
+                    <a href="javascript:void(0);">贵妃芒</a>
+                
+                    <a href="javascript:void(0);">休闲零食</a>
+                
+                    <a href="javascript:void(0);">浪漫鲜花</a>
+                
+                    <a href="javascript:void(0);">法国红酒</a>
+                
+                    <a href="javascript:void(0);">巧克力</a>
+                
+            </p>
+        </div>
+        <div class="egu_shop_cart"><i id="egu-top-cart">1</i><span><a href="html/cart.html">我的购物车</a></span></div>
+        <div class="clear"></div>
+    </div>
+    </form>
+    <div class="w12">
+    <div class="nav-box">
+        <div class="class-menuBox">
+        <div class="title">全部商品分类</div>
+        
+        <ul class="nav-left">
+            <li><span style="background: url(&quot;images/icon-bsjt.png&quot;) 180px 14px no-repeat transparent;"><a href="html/goods_list.html">新鲜水果</a><p>
+            
+            
+            <a href="javascript:void(0);">芒果</a>
+            
+            |<a href="javascript:void(0);">莲雾</a>
+            
+            |<a href="javascript:void(0);">菠萝</a>
+            
+            |<a href="javascript:void(0);">提子</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right" style="display: none;">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">奇异果/车厘子<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">金奇异果</a>
+                            
+                            <a href="javascript:void(0);">绿奇异果/猕猴桃</a>
+                            
+                            <a href="javascript:void(0);">车厘子/樱桃</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">苹果/梨子/瓜类<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">红玫瑰/加力果</a>
+                            
+                            <a href="javascript:void(0);">富士/糖心苹果</a>
+                            
+                            <a href="javascript:void(0);">其他苹果</a>
+                            
+                            <a href="javascript:void(0);">香梨</a>
+                            
+                            <a href="javascript:void(0);">丰水梨</a>
+                            
+                            <a href="javascript:void(0);">其他香梨</a>
+                            
+                            <a href="javascript:void(0);">木瓜</a>
+                            
+                            <a href="javascript:void(0);">哈密瓜</a>
+                            
+                            <a href="javascript:void(0);">西瓜</a>
+                            
+                            <a href="javascript:void(0);">其他瓜类</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">提子/葡萄/莓类<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">无籽红提/黑提</a>
+                            
+                            <a href="javascript:void(0);">有籽葡萄</a>
+                            
+                            <a href="javascript:void(0);">夏黑葡萄</a>
+                            
+                            <a href="javascript:void(0);">其他葡萄</a>
+                            
+                            <a href="javascript:void(0);">蓝莓</a>
+                            
+                            <a href="javascript:void(0);">草莓</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">橙桔柑柚<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">冰糖橙/脐橙</a>
+                            
+                            <a href="javascript:void(0);">金桔/蜜桔</a>
+                            
+                            <a href="javascript:void(0);">其他橙子</a>
+                            
+                            <a href="javascript:void(0);">其他桔子</a>
+                            
+                            <a href="javascript:void(0);">丑柑/皇帝柑</a>
+                            
+                            <a href="javascript:void(0);">其他柑子</a>
+                            
+                            <a href="javascript:void(0);">柚子</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">桃李杏枣<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">桃子</a>
+                            
+                            <a href="javascript:void(0);">杨桃</a>
+                            
+                            <a href="javascript:void(0);">李子</a>
+                            
+                            <a href="javascript:void(0);">黑布李</a>
+                            
+                            <a href="javascript:void(0);">杏子</a>
+                            
+                            <a href="javascript:void(0);">冬枣/青枣</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">热带水果<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">芒果</a>
+                            
+                            <a href="javascript:void(0);">香蕉</a>
+                            
+                            <a href="javascript:void(0);">火龙果</a>
+                            
+                            <a href="javascript:void(0);">凤梨/菠萝</a>
+                            
+                            <a href="javascript:void(0);">椰子</a>
+                            
+                            <a href="javascript:void(0);">山竹</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">其他水果<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">圣女果/小番茄</a>
+                            
+                            <a href="javascript:void(0);">牛油果</a>
+                            
+                            <a href="javascript:void(0);">莲雾</a>
+                            
+                            <a href="javascript:void(0);">释迦</a>
+                            
+                            <a href="javascript:void(0);">青柠檬/柠檬</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">水果礼盒<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">100-200</a>
+                            
+                            <a href="javascript:void(0);">200-300</a>
+                            
+                            <a href="javascript:void(0);">300-500</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                            <a href="javascript:void(0);">100以下</a>
+                            
+                        
+                        </dd>
+                    </dl>      
+            </div>          
+            </li>
+            
+            <li><span style="background: url(&quot;images/icon-bsjt.png&quot;) 180px 14px no-repeat transparent;"><a href="javascript:void(0);">绿色菜篮</a><p>
+            
+            
+            <a href="javascript:void(0);">腊肉</a>
+            
+            |<a href="javascript:void(0);">鸡肉</a>
+            
+            |<a href="javascript:void(0);">瓜果</a>
+            
+            |<a href="javascript:void(0);">羊肉</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right" style="display: none;">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">宅配优选<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">三口之家</a>
+                            
+                            <a href="javascript:void(0);">五口之家</a>
+                            
+                            <a href="javascript:void(0);">蔬菜宅配</a>
+                            
+                            <a href="javascript:void(0);">禽肉宅配</a>
+                            
+                            <a href="javascript:void(0);">粮油宅配</a>
+                            
+                            <a href="javascript:void(0);">宅配体验包/其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">健康蔬菜<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">叶菜</a>
+                            
+                            <a href="javascript:void(0);">瓜果</a>
+                            
+                            <a href="javascript:void(0);">根茎</a>
+                            
+                            <a href="javascript:void(0);">葱/姜/蒜</a>
+                            
+                            <a href="javascript:void(0);">海藻类</a>
+                            
+                            <a href="javascript:void(0);">鲜菌菇</a>
+                            
+                            <a href="javascript:void(0);">豆制品</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">猪肉<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">排骨</a>
+                            
+                            <a href="javascript:void(0);">汤骨/龙骨</a>
+                            
+                            <a href="javascript:void(0);">精肉/瘦肉</a>
+                            
+                            <a href="javascript:void(0);">猪手/猪蹄</a>
+                            
+                            <a href="javascript:void(0);">五花肉</a>
+                            
+                            <a href="javascript:void(0);">猪内脏</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">牛肉/羊肉<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">进口牛肉</a>
+                            
+                            <a href="javascript:void(0);">牛扒/牛排</a>
+                            
+                            <a href="javascript:void(0);">牛腩/牛肉</a>
+                            
+                            <a href="javascript:void(0);">羊肉/羊排</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">禽肉蛋品<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">散养土鸡</a>
+                            
+                            <a href="javascript:void(0);">乌骨鸡</a>
+                            
+                            <a href="javascript:void(0);">鸡脚/鸡翅</a>
+                            
+                            <a href="javascript:void(0);">鸡蛋</a>
+                            
+                            <a href="javascript:void(0);">咸鸭蛋/松花蛋</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">河鲜海产<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">河鱼/海鱼</a>
+                            
+                            <a href="javascript:void(0);">三文鱼</a>
+                            
+                            <a href="javascript:void(0);">虾/虾仁</a>
+                            
+                            <a href="javascript:void(0);">蟹</a>
+                            
+                            <a href="javascript:void(0);">鲍鱼/贝类</a>
+                            
+                            <a href="javascript:void(0);">鲜海参</a>
+                            
+                            <a href="javascript:void(0);">海鲜礼盒</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">熟食腊味<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">大盆菜礼箱</a>
+                            
+                            <a href="javascript:void(0);">肉丸</a>
+                            
+                            <a href="javascript:void(0);">腊肠/腊肉</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>     
+            </div>          
+            </li>
+            <li><span style="background: url(&quot;images/icon-bsjt.png&quot;) 180px 14px no-repeat transparent;"><a href="javascript:void(0);">粮油调味</a><p>
+            
+            
+            <a href="javascript:void(0);">稻花香米</a>
+            
+            |<a href="javascript:void(0);">香粉</a>
+            
+            |<a href="javascript:void(0);">面条</a>
+            
+            |<a href="javascript:void(0);">罐头</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right" style="display: none;">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">大米<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">稻花香大米</a>
+                            
+                            <a href="javascript:void(0);">东北米</a>
+                            
+                            <a href="javascript:void(0);">有机大米</a>
+                            
+                            <a href="javascript:void(0);">泰国茉莉香米</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">五谷杂粮<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">小米</a>
+                            
+                            <a href="javascript:void(0);">黄豆/黑豆</a>
+                            
+                            <a href="javascript:void(0);">绿豆/赤小豆/红豆</a>
+                            
+                            <a href="javascript:void(0);">黑米/糯米</a>
+                            
+                            <a href="javascript:void(0);">花生/薏米</a>
+                            
+                            <a href="javascript:void(0);">其他杂粮</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">小麦粉/面粉/面类<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">面粉</a>
+                            
+                            <a href="javascript:void(0);">面条</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">食用油<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">花生油</a>
+                            
+                            <a href="javascript:void(0);">玉米油</a>
+                            
+                            <a href="javascript:void(0);">橄榄油</a>
+                            
+                            <a href="javascript:void(0);">山茶油/茶籽油</a>
+                            
+                            <a href="javascript:void(0);">其他食油</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">酱料调味<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">酱油/醋</a>
+                            
+                            <a href="javascript:void(0);">风味酱</a>
+                            
+                            <a href="javascript:void(0);">火锅底料/调料</a>
+                            
+                            <a href="javascript:void(0);">罐头</a>
+                            
+                            <a href="javascript:void(0);">芝麻/花生酱</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">酱菜腌料<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">胡椒粉/香粉</a>
+                            
+                            <a href="javascript:void(0);">麻油/芝麻油</a>
+                            
+                            <a href="javascript:void(0);">下饭菜/酱菜</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>  
+            </div>          
+            </li>
+            
+            <li><span style="background: url(&quot;images/icon-bsjt.png&quot;) 180px 14px no-repeat transparent;"><a href="javascript:void(0);">干货特产</a><p>
+            
+            
+            <a href="javascript:void(0);">虫草花</a>
+            
+            |<a href="javascript:void(0);">菇</a>
+            
+            |<a href="javascript:void(0);">竹荪</a>
+            
+            |<a href="javascript:void(0);">鱿鱼</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right" style="display: none;">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">干制菌菇<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">香菇/花菇/冬菇</a>
+                            
+                            <a href="javascript:void(0);">黑木耳</a>
+                            
+                            <a href="javascript:void(0);">银耳</a>
+                            
+                            <a href="javascript:void(0);">茶树菇</a>
+                            
+                            <a href="javascript:void(0);">虫草花</a>
+                            
+                            <a href="javascript:void(0);">竹荪</a>
+                            
+                            <a href="javascript:void(0);">其他菇类</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">干晒海产<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">干鱿鱼/干墨鱼</a>
+                            
+                            <a href="javascript:void(0);">虾干/虾皮</a>
+                            
+                            <a href="javascript:void(0);">鱼干/干鱼仔</a>
+                            
+                            <a href="javascript:void(0);">其他干海产</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">地方好货<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">枸杞/黑枸杞</a>
+                            
+                            <a href="javascript:void(0);">红枣/灰枣</a>
+                            
+                            <a href="javascript:void(0);">莲子</a>
+                            
+                            <a href="javascript:void(0);">桂圆干/龙眼干</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">土特名产<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">红糖</a>
+                            
+                            <a href="javascript:void(0);">粉丝/米粉</a>
+                            
+                            <a href="javascript:void(0);">腐竹</a>
+                            
+                            <a href="javascript:void(0);">其他名产</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">扶贫产品<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">新疆</a>
+                            
+                            <a href="javascript:void(0);">广西</a>
+                            
+                            <a href="javascript:void(0);">云南</a>
+                            
+                            <a href="javascript:void(0);">江西</a>
+                            
+                            <a href="javascript:void(0);">陕西</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">干货礼盒<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">单品类礼盒</a>
+                            
+                            <a href="javascript:void(0);">多品类礼盒</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                
+            </div>          
+            </li>
+            
+            <li><span style="background: url(&quot;images/icon-bsjt.png&quot;) 180px 14px no-repeat transparent;"><a href="javascript:void(0);">零食饮料</a><p>
+            
+            
+            <a href="javascript:void(0);">肉铺</a>
+            
+            |<a href="javascript:void(0);">营养饼干</a>
+            
+            |<a href="javascript:void(0);">水果糖</a>
+            
+            |<a href="javascript:void(0);">蜂蜜</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right" style="display: none;">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">坚果炒货<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">核桃仁</a>
+                            
+                            <a href="javascript:void(0);">松子仁</a>
+                            
+                            <a href="javascript:void(0);">开心果/夏威夷果/腰果</a>
+                            
+                            <a href="javascript:void(0);">瓜子/花生/怪味豆</a>
+                            
+                            <a href="javascript:void(0);">其他果仁</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">休闲零食<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">肉干/肉脯</a>
+                            
+                            <a href="javascript:void(0);">蔬菜干</a>
+                            
+                            <a href="javascript:void(0);">葡萄干</a>
+                            
+                            <a href="javascript:void(0);">薯片</a>
+                            
+                            <a href="javascript:void(0);">果冻/布丁</a>
+                            
+                            <a href="javascript:void(0);">紫菜卷/海苔</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">饼干曲奇<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">曲奇</a>
+                            
+                            <a href="javascript:void(0);">蛋卷/酥饼/派</a>
+                            
+                            <a href="javascript:void(0);">夹心饼干</a>
+                            
+                            <a href="javascript:void(0);">威化饼干</a>
+                            
+                            <a href="javascript:void(0);">营养饼干</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">糖果/巧克力<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">进口巧克力</a>
+                            
+                            <a href="javascript:void(0);">糖果</a>
+                            
+                            <a href="javascript:void(0);">软糖</a>
+                            
+                            <a href="javascript:void(0);">水果糖</a>
+                            
+                            <a href="javascript:void(0);">咖啡糖</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">冲调速食<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">蜂蜜/蜂蜜茶</a>
+                            
+                            <a href="javascript:void(0);">麦片/米糊</a>
+                            
+                            <a href="javascript:void(0);">咖啡</a>
+                            
+                            <a href="javascript:void(0);">方便面/泡面</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">牛奶饮品<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">纯牛奶</a>
+                            
+                            <a href="javascript:void(0);">酸奶</a>
+                            
+                            <a href="javascript:void(0);">豆奶</a>
+                            
+                            <a href="javascript:void(0);">纯果汁</a>
+                            
+                            <a href="javascript:void(0);">果味饮料</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                
+            </div>          
+            </li>
+            
+            <li><span style="background: url(&quot;images/icon-bsjt.png&quot;) 180px 14px no-repeat transparent;"><a href="javascript:void(0);">美酒茗茶</a><p>
+            
+            
+            <a href="javascript:void(0);">白葡萄酒</a>
+            
+            |<a href="javascript:void(0);">酱香白酒</a>
+            
+            |<a href="javascript:void(0);">黑啤</a>
+            
+            |<a href="javascript:void(0);">陈皮普洱</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right" style="display: none;">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">葡萄酒<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">法国红酒</a>
+                            
+                            <a href="javascript:void(0);">澳洲红酒</a>
+                            
+                            <a href="javascript:void(0);">白葡萄酒/起泡酒</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">白酒/啤酒<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">酱香型</a>
+                            
+                            <a href="javascript:void(0);">特曲/头曲</a>
+                            
+                            <a href="javascript:void(0);">黄酒/米酒</a>
+                            
+                            <a href="javascript:void(0);">黄啤酒</a>
+                            
+                            <a href="javascript:void(0);">白啤/黑啤</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">红茶<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">大红袍</a>
+                            
+                            <a href="javascript:void(0);">正山小种</a>
+                            
+                            <a href="javascript:void(0);">凤凰单枞</a>
+                            
+                            <a href="javascript:void(0);">肉桂</a>
+                            
+                            <a href="javascript:void(0);">其他红茶</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">普洱茶<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">陈皮普洱/小青柑</a>
+                            
+                            <a href="javascript:void(0);">熟普</a>
+                            
+                            <a href="javascript:void(0);">茶饼</a>
+                            
+                            <a href="javascript:void(0);">其他普洱茶</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">花茶/绿茶/白茶<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">玫瑰花/花茶</a>
+                            
+                            <a href="javascript:void(0);">铁观音</a>
+                            
+                            <a href="javascript:void(0);">新赛珍珠</a>
+                            
+                            <a href="javascript:void(0);">老白茶</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                
+            </div>          
+            </li>
+            
+            <li><span style="background: url(&quot;images/icon-bsjt.png&quot;) 180px 14px no-repeat transparent;"><a href="javascript:void(0);">礼品礼券</a><p>
+            
+            
+            <a href="javascript:void(0);">石斛</a>
+            
+            |<a href="javascript:void(0);">混合花</a>
+            
+            |<a href="javascript:void(0);">灵芝</a>
+            
+            |<a href="javascript:void(0);">蛋糕券</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right" style="display: none;">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">年节套餐/粽子/月饼/大闸蟹<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">春节粮油套餐</a>
+                            
+                            <a href="javascript:void(0);">春节水果套餐</a>
+                            
+                            <a href="javascript:void(0);">春节干货套餐</a>
+                            
+                            <a href="javascript:void(0);">春节时令套餐</a>
+                            
+                            <a href="javascript:void(0);">春节年节套餐</a>
+                            
+                            <a href="javascript:void(0);">春节家居套餐</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">滋补礼品<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">鱼翅/燕窝</a>
+                            
+                            <a href="javascript:void(0);">鲍鱼</a>
+                            
+                            <a href="javascript:void(0);">花胶/鱼胶</a>
+                            
+                            <a href="javascript:void(0);">灵芝/冬虫夏草</a>
+                            
+                            <a href="javascript:void(0);">花旗参</a>
+                            
+                            <a href="javascript:void(0);">石斛</a>
+                            
+                            <a href="javascript:void(0);">干海参</a>
+                            
+                            <a href="javascript:void(0);">山珍礼盒</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">鲜花/蛋糕<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">玫瑰</a>
+                            
+                            <a href="javascript:void(0);">百合</a>
+                            
+                            <a href="javascript:void(0);">混搭花型</a>
+                            
+                            <a href="javascript:void(0);">生日蛋糕</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">礼券<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">宅配卡</a>
+                            
+                            <a href="javascript:void(0);">谷穗卡</a>
+                            
+                            <a href="javascript:void(0);">套餐卡</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                
+            </div>          
+            </li>
+            
+            <li><span><a href="javascript:void(0);">家居厨卫</a><p>
+            
+            
+            <a href="javascript:void(0);">毛毯</a>
+            
+            |<a href="javascript:void(0);">披肩</a>
+            
+            |<a href="javascript:void(0);">行李箱</a>
+            
+            |<a href="javascript:void(0);">马克杯</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">床上家纺<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">三件套/四件套</a>
+                            
+                            <a href="javascript:void(0);">被子</a>
+                            
+                            <a href="javascript:void(0);">毛毯/盖毯</a>
+                            
+                            <a href="javascript:void(0);">组合套装</a>
+                            
+                            <a href="javascript:void(0);">披肩/毛巾</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">时尚箱包<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">拉杆箱/旅行箱</a>
+                            
+                            <a href="javascript:void(0);">双肩包</a>
+                            
+                            <a href="javascript:void(0);">单肩包/挎包/妈咪包</a>
+                            
+                            <a href="javascript:void(0);">臂包</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">水壶杯具<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">保温杯</a>
+                            
+                            <a href="javascript:void(0);">马克杯/咖啡杯</a>
+                            
+                            <a href="javascript:void(0);">弹跳杯</a>
+                            
+                            <a href="javascript:void(0);">旅行壶/保温水壶</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">盘碟餐具<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">便当盒/保鲜盒</a>
+                            
+                            <a href="javascript:void(0);">饭盒套装</a>
+                            
+                            <a href="javascript:void(0);">保温箱/餐桶</a>
+                            
+                            <a href="javascript:void(0);">盘碟碗套装</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">厨房用品<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">锅/炖盅</a>
+                            
+                            <a href="javascript:void(0);">盆子/储物罐</a>
+                            
+                            <a href="javascript:void(0);">刀具/剪刀</a>
+                            
+                            <a href="javascript:void(0);">烘培用具</a>
+                            
+                            <a href="javascript:void(0);">烘培模具</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                
+            </div>          
+            </li>
+            
+            <li><span><a href="javascript:void(0);">创意家电</a><p>
+            
+            
+            <a href="javascript:void(0);">车电源</a>|<a href="javascript:void(0);">咖啡壶</a>|<a href="javascript:void(0);">电炖锅</a>|<a href="javascript:void(0);">搅拌机</a>
+            
+            
+            </p>
+            </span>
+            <div class="nav_right">
+                
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">智能电器/健康监护<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">吸尘器</a>
+                            
+                            <a href="javascript:void(0);">加湿器</a>
+                            
+                            <a href="javascript:void(0);">净化器</a>
+                            
+                            <a href="javascript:void(0);">车载电源</a>
+                            
+                            <a href="javascript:void(0);">吹风机/人体秤</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt><a href="javascript:void(0);">轻便料理家电<i> &gt;</i></a></dt>
+                        <dd>
+                        
+                            
+                            <a href="javascript:void(0);">电炖锅/电饭锅</a>
+                            
+                            <a href="javascript:void(0);">电水壶/电烤箱</a>
+                            
+                            <a href="javascript:void(0);">搅拌机</a>
+                            
+                            <a href="javascript:void(0);">果汁/原汁机</a>
+                            
+                            <a href="javascript:void(0);">咖啡机</a>
+                            
+                            <a href="javascript:void(0);">其他</a>
+                            
+                        
+                        </dd>
+                    </dl>
+                    
+                
+            </div>          
+            </li>
+            
+        </ul>
+        
+        </div>
+        <ul class="nav-menu">
+            <li class="first cur"><a href="index.html">主页</a></li>
+            <!-- <li><a href="" class="hse">依谷精选</a></li> -->
+            <li><a href="javascript:void(0);">安心宅配</a></li>
+            <li><a href="javascript:void(0);">特色预订</a></li>
+            <li><a href="javascript:void(0);">卡券兑换</a></li>
+            <li><a href="javascript:void(0);">企业定制</a></li>
+            <li><a href="javascript:void(0);">活动专享</a></li>
+            <li><a href="javascript:void(0);">食尚资讯</a></li>
+            <li><a href="javascript:void(0);">依谷扶贫</a></li>
+        </ul>
+        <div class="icon-erwm"><i><img src="images/erwm.jpg"></i> 扫 码 下 单</div>
+    </div></div>
+    <div class="clear"></div>
+</div>
+
+
+</div>
+<div id="index_Slide" class="margin-t-40">
+
+<div class="banner-box">    
+<div class="mtime-box">
+    <div class="bd">
+        <ul id="index_banner" style="position: relative; width: 0px; height: 480px;">
+        
+         
+            <li style="position: absolute; width: 0px; left: 0px; top: 0px; display: list-item;"><a href="javascript:void(0);"><img src="images/1552212948267.jpg" height="468px"></a></li>
+          
+            <li style="position: absolute; width: 0px; left: 0px; top: 0px; display: none;"><a href="javascript:void(0);"><img src="images/1552039627844.jpg" height="468px"></a></li>
+          
+            <li style="position: absolute; width: 0px; left: 0px; top: 0px; display: none;"><a href="javascript:void(0);"><img src="images/1551409275916.jpg" height="468px"></a></li>
+          
+            <li style="position: absolute; width: 0px; left: 0px; top: 0px; display: none;"><a href="javascript:void(0);"><img src="images/1550210320242.jpg" height="468px"></a></li>
+          
+            <li style="position: absolute; width: 0px; left: 0px; top: 0px; display: none;"><a href="javascript:void(0);"><img src="images/1550195057127.jpg" height="468px"></a></li>
+          
+         
+        </ul>
+    </div>
+    <div class="mtime-btn">
+        <a class="prev" href="javascript:;"></a>
+        <a class="next" href="javascript:;"></a>
+        <div class="hd"><ul><li class="on">1</li><li class="">2</li><li class="">3</li><li class="">4</li><li class="">5</li></ul></div>
+    </div>
+</div>
+
+
+
+<div class="w12 pr"><!-- 特色预订 -->
+    <div class="notice" style="z-index:10"><a href="javascript:void(0);" target="_blank"><img  src="images/1552310267895.jpg"></a></div>
+</div>
+
+</div>
+    <div class="main1200">
+        <div class="list4">
+            <ul>
+                <li><a href="javascript:void(0);" target="_blank"><img src="images/ad-pic01.jpg"></a></li>
+                <li><a href="javascript:void(0);" target="_blank"><img src="images/ad-pic02.jpg"></a></li>
+                <li><a href="javascript:void(0);" target="_blank"><img src="images/ad-pic03.jpg"></a></li>
+                <li class="end"><a href="javascript:void(0);" target="_blank"><img src="images/ad-pic04.jpg"></a></li>
+            </ul>
+        </div>
+        <!--新品推荐-->
+        <div class="new_cp">
+            <span class="tt"><img src="images/ad-pic05.jpg"></span>
+            <ul id="new_product">
+            
+            <!-- <li><a href="javascript:void(0);"><i class="img"><img src="images/201903051726275024.jpg" width="190px" height="190px"></i><span class="bt">诺来原生葡萄籽油礼盒装500ml*2</span><span class="jg"><em>￥ 124</em><i>￥ 260</i></span></a></li>
+            
+            <li><a href="javascript:void(0);"><i class="img"><img src="images/20170907110925051.jpg" width="190px" height="190px"></i><span class="bt">Amalee冰糖燕窝（燕窝罐头礼盒装）420g</span><span class="jg"><em>￥ 485</em><i>￥ 499</i></span></a></li>
+            
+            <li><a href="javascript:void(0);"><i class="img"><img src="images/201708231644120002.jpg" width="190px" height="190px"></i><span class="bt">浪漫味道・粉百合+戴安娜玫瑰+桔梗花</span><span class="jg"><em>￥ 388</em><i>￥ 528</i></span></a></li>
+            
+            <li><a href="javascript:void(0);"><i class="img"><img src="images/201807301441895045.jpg" width="190px" height="190px"></i><span class="bt">法国博堡幸福密码红葡萄酒750ml</span><span class="jg"><em>￥ 320</em><i>￥ 450</i></span></a></li>
+            
+            <li><a href="javascript:void(0);"><i class="img"><img src="images/201709061021239055.jpg" width="190px" height="190px"></i><span class="bt">八马（常规）留香大红袍.富贵紫320g</span><span class="jg"><em>￥ 1500</em><i>￥ 1500</i></span></a></li> -->
+            
+            
+        </ul></div>
+        <div class="clear"></div>
+        <div class="lmt-title"><h3>鲜/依/谷/厚/生/活</h3><p><em class="lse">fresh egu</em> Prosperous life</p></div>
+</div>  
+</div>
+<div id="navList">
+
+ 
+
+
+<div class="ht-clss bj01" id="floor1">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">芒果</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">莲雾</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">菠萝</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">提子</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">牛油果</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">丰水梨</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551928153760.jpg" title="新西兰红玫瑰8个装" alt="新西兰红玫瑰8个装"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551429976332.jpg" title="佳沛阳光金奇异果（22-25枚）" alt="佳沛阳光金奇异果（22-25枚）"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj01">
+    <ul id="fruits">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803060914937029.jpg" width="180px" height="180px" title="智利进口西梅1kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="智利进口西梅1kg">
+             智利进口西梅1kg
+        </a></em><span>￥<i>68</i><i class="ri">￥98</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803050943588006.jpg" width="180px" height="180px" title="海南树上熟木瓜2个装"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="海南树上熟木瓜2个装">
+          
+              
+             海南树上熟木瓜2个装
+          
+        </a></em><span>￥<i>22.8</i><i class="ri">￥38.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201605251018165007.jpg" width="180px" height="180px" title="平平安安水果礼盒"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="平平安安水果礼盒">
+          
+              
+             平平安安水果礼盒
+          
+        </a></em><span>￥<i>76</i><i class="ri">￥88</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803051029972025.jpg" width="180px" height="180px" title="梨苹组合"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="梨苹组合">
+          
+              
+             梨苹组合
+          
+        </a></em><span>￥<i>88</i><i class="ri">￥98</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805071639115002.jpg" width="180px" height="180px" title="山东A级水晶富士1.5kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="山东A级水晶富士1.5kg">
+          
+              
+             山东A级水晶富士1.5kg
+          
+        </a></em><span>￥<i>27.8</i><i class="ri">￥32.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201711211056647044.jpg" width="180px" height="180px" title="四川不知火丑柑6个装"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="四川不知火丑柑6个装">
+          
+              
+             四川不知火丑柑6个装
+          
+        </a></em><span>￥<i>34.8</i><i class="ri">￥39.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803141631535006.jpg" width="180px" height="180px" title="美国进口桃驳李1kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="美国进口桃驳李1kg">
+          
+              
+             美国进口桃驳李1kg
+          
+        </a></em><span>￥<i>69.8</i><i class="ri">￥88</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805071617823050.jpg" width="180px" height="180px" title="越南红心火龙果3个装"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="越南红心火龙果3个装">
+          
+              
+             越南红心火龙果3个装
+          
+        </a></em><span>￥<i>56.8</i><i class="ri">￥68</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805071640139001.jpg" width="180px" height="180px" title="海南椰子(单个)约900g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="海南椰子(单个)约900g">
+          
+              
+             海南椰子(单个)约900g
+          
+        </a></em><span>￥<i>12.8</i><i class="ri">￥16.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803060932734045.jpg" width="180px" height="180px" title="泰国山竹2.5kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="泰国山竹2.5kg">
+          
+              
+             泰国山竹2.5kg
+          
+        </a></em><span>￥<i>138</i><i class="ri">￥168</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/20180404155491056.jpg" width="180px" height="180px" title="精选云霄枇杷1kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="精选云霄枇杷1kg">
+          
+              
+             精选云霄枇杷1kg
+          
+        </a></em><span>￥<i>58.8</i><i class="ri">￥69.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803081606630032.jpg" width="180px" height="180px" title="南非柠檬6枚盒装"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="南非柠檬6枚盒装">
+          
+              
+             南非柠檬6枚盒装
+          
+        </a></em><span>￥<i>27.8</i><i class="ri">￥34.8</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj02" id="floor2">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">腊肉</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">鸡肉</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">瓜果</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">羊肉</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">鲜菌菇</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">宅配</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551430116684.jpg" title="依谷（精品）双色洋葱400g" alt="依谷（精品）双色洋葱400g"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551946335427.jpg" title="云南直供新鲜羊肚菌500g" alt="云南直供新鲜羊肚菌500g"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj02">
+    <ul id="vegetables">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201806221727501030.jpg" width="180px" height="180px" title="依谷（精品）生菜300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="依谷（精品）生菜300g">
+          
+              
+             依谷（精品）生菜300g
+          
+        </a></em><span>￥<i>8.8</i><i class="ri">￥9.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/20180622180073042.jpg" width="180px" height="180px" title="依谷精选净板栗肉200g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="依谷精选净板栗肉200g">
+          
+              
+             依谷精选净板栗肉200g
+          
+        </a></em><span>￥<i>13.6</i><i class="ri">￥14.9</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201901171553802033.jpg" width="180px" height="180px" title="凿冰冲冲红酒烩排骨200g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="凿冰冲冲红酒烩排骨200g">
+          
+              
+             凿冰冲冲红酒烩排骨200g
+          
+        </a></em><span>￥<i>39.9</i><i class="ri">￥49</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201901172008260025.jpg" width="180px" height="180px" title="凿冰冲冲轻松冬阴功300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="凿冰冲冲轻松冬阴功300g">
+          
+              
+             凿冰冲冲轻松冬阴功300g
+          
+        </a></em><span>￥<i>39.9</i><i class="ri">￥49</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201511251438118026.jpg" width="180px" height="180px" title="美益无公害筒骨550g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="美益无公害筒骨550g">
+          
+              
+             美益无公害筒骨550g
+          
+        </a></em><span>￥<i>35.8</i><i class="ri">￥39.9</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201511251421989037.jpg" width="180px" height="180px" title="美益无公害龙骨550g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="美益无公害龙骨550g">
+          
+              
+             美益无公害龙骨550g
+          
+        </a></em><span>￥<i>34.5</i><i class="ri">￥44.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201701231205536029.jpg" width="180px" height="180px" title="延边黄牛精选有机腱子肉1000g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="延边黄牛精选有机腱子肉1000g">
+          
+              
+                  延边黄牛精选有机腱子肉1...
+              
+             
+          
+        </a></em><span>￥<i>158</i><i class="ri">￥176</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201702041539135003.jpg" width="180px" height="180px" title="延边黄牛精选有机嫩菲力牛排500g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="延边黄牛精选有机嫩菲力牛排500g">
+          
+              
+                  延边黄牛精选有机嫩菲力牛...
+              
+             
+          
+        </a></em><span>￥<i>135</i><i class="ri">￥139</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/20180321142231011.jpg" width="180px" height="180px" title="中山三角沙栏鸡（1050g-1150g）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="中山三角沙栏鸡（1050g-1150g）">
+          
+              
+                  中山三角沙栏鸡（1050...
+              
+             
+          
+        </a></em><span>￥<i>88</i><i class="ri">￥98</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/20170822174513000.jpg" width="180px" height="180px" title="奇威文昌鸡脚（鲜）500g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="奇威文昌鸡脚（鲜）500g">
+          
+              
+             奇威文昌鸡脚（鲜）500g
+          
+        </a></em><span>￥<i>19.9</i><i class="ri">￥24</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201410241042949017.jpg" width="180px" height="180px" title="鲜动生活冻三文鱼扒300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="鲜动生活冻三文鱼扒300g">
+          
+              
+             鲜动生活冻三文鱼扒300g
+          
+        </a></em><span>￥<i>89.9</i><i class="ri">￥98</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201410241112663031.jpg" width="180px" height="180px" title="鲜动生活冻凤尾虾300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="鲜动生活冻凤尾虾300g">
+          
+              
+             鲜动生活冻凤尾虾300g
+          
+        </a></em><span>￥<i>99.8</i><i class="ri">￥118</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj03" id="floor3">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">稻花香米</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">香粉</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">面条</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">罐头</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">花生酱</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">橄榄油</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551663212685.jpg" title="军供健康挂面400g8袋" alt="军供健康挂面400g8袋"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551430104907.jpg" title="君子兰低筋小麦粉1kg" alt="君子兰低筋小麦粉1kg"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj03">
+    <ul id="grain">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201901081722163048.jpg" width="180px" height="180px" title="依谷五常稻花香大米2.5kg （新米）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="依谷五常稻花香大米2.5kg （新米）">
+          
+              
+                  依谷五常稻花香大米2.5...
+              
+             
+          
+        </a></em><span>￥<i>79.9</i><i class="ri">￥88</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805080858446026.jpg" width="180px" height="180px" title="金满堂泰国原装进口茉莉香米5kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="金满堂泰国原装进口茉莉香米5kg">
+          
+              
+                  金满堂泰国原装进口茉莉香...
+              
+             
+          
+        </a></em><span>￥<i>158</i><i class="ri">￥188</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201810081653108001.jpg" width="180px" height="180px" title="山茶山天然纯山茶油500ML"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="山茶山天然纯山茶油500ML">
+          
+              
+             山茶山天然纯山茶油500ML
+          
+        </a></em><span>￥<i>148</i><i class="ri">￥165</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201808021723565005.jpg" width="180px" height="180px" title="灵犀有机天然山茶油礼盒装125ml*2"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="灵犀有机天然山茶油礼盒装125ml*2">
+          
+              
+                  灵犀有机天然山茶油礼盒装...
+              
+             
+          
+        </a></em><span>￥<i>118</i><i class="ri">￥138</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201801221405229014.jpg" width="180px" height="180px" title="朝阳豆浆豆520g（罐）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="朝阳豆浆豆520g（罐）">
+          
+              
+             朝阳豆浆豆520g（罐）
+          
+        </a></em><span>￥<i>19.9</i><i class="ri">￥28.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201801181712319009.jpg" width="180px" height="180px" title="五常黑米560g（罐）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="五常黑米560g（罐）">
+          
+              
+             五常黑米560g（罐）
+          
+        </a></em><span>￥<i>28.8</i><i class="ri">￥39.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201811141110664028.jpg" width="180px" height="180px" title="陕北吴堡县手工空心面1.2kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="陕北吴堡县手工空心面1.2kg">
+          
+              
+                  陕北吴堡县手工空心面1....
+              
+             
+          
+        </a></em><span>￥<i>125</i><i class="ri">￥150</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812031549276008.jpg" width="180px" height="180px" title="向日葵高筋小麦粉2.5kg"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="向日葵高筋小麦粉2.5kg">
+          
+              
+             向日葵高筋小麦粉2.5kg
+          
+        </a></em><span>￥<i>24.8</i><i class="ri">￥29.9</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805211138177024.jpg" width="180px" height="180px" title="味事达味极鲜酱油760g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="味事达味极鲜酱油760g">
+          
+              
+             味事达味极鲜酱油760g
+          
+        </a></em><span>￥<i>18.9</i><i class="ri">￥24.9</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201903061649952001.jpg" width="180px" height="180px" title="亨氏番茄沙司300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="亨氏番茄沙司300g">
+          
+              
+             亨氏番茄沙司300g
+          
+        </a></em><span>￥<i>11.8</i><i class="ri">￥12</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805281538622037.jpg" width="180px" height="180px" title="华品烧烤料35g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="华品烧烤料35g">
+          
+              
+             华品烧烤料35g
+          
+        </a></em><span>￥<i>6.6</i><i class="ri">￥8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805211127250018.jpg" width="180px" height="180px" title="好侍百梦多咖喱2号微辣100g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="好侍百梦多咖喱2号微辣100g">
+          
+              
+                  好侍百梦多咖喱2号微辣1...
+              
+             
+          
+        </a></em><span>￥<i>13.8</i><i class="ri">￥14.8</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj04" id="floor4">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">虫草花</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">菇</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">竹荪</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">鱿鱼</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">茶树菇</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">干货礼盒</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551941338434.jpg" title="大山合金钱菇300g" alt="大山合金钱菇300g"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551430311136.jpg" title="柴达木野生黑枸杞礼盒100g" alt="柴达木野生黑枸杞礼盒100g"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj04">
+    <ul id="specialty">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812121039101007.jpg" width="180px" height="180px" title="长白山天然虫草花250g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="长白山天然虫草花250g">
+          
+              
+             长白山天然虫草花250g
+          
+        </a></em><span>￥<i>79.9</i><i class="ri">￥119</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201903070927244043.jpg" width="180px" height="180px" title="山野小拾银耳50g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="山野小拾银耳50g">
+          
+              
+             山野小拾银耳50g
+          
+        </a></em><span>￥<i>9.8</i><i class="ri">￥12.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201903061522312030.jpg" width="180px" height="180px" title="山野小拾东北木耳70g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="山野小拾东北木耳70g">
+          
+              
+             山野小拾东北木耳70g
+          
+        </a></em><span>￥<i>13.5</i><i class="ri">￥16.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201801250931346035.jpg" width="180px" height="180px" title="大山珍礼茶树菇250g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="大山珍礼茶树菇250g">
+          
+              
+             大山珍礼茶树菇250g
+          
+        </a></em><span>￥<i>78</i><i class="ri">￥88</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201701221632925021.jpg" width="180px" height="180px" title="特级本港鱿鱼500g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="特级本港鱿鱼500g">
+          
+              
+             特级本港鱿鱼500g
+          
+        </a></em><span>￥<i>188</i><i class="ri">￥220</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201804101606663035.jpg" width="180px" height="180px" title="宁夏纯手工精选枸杞罐装150g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="宁夏纯手工精选枸杞罐装150g">
+          
+              
+                  宁夏纯手工精选枸杞罐装1...
+              
+             
+          
+        </a></em><span>￥<i>38.00</i><i class="ri">￥48.80</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201801031610423044.jpg" width="180px" height="180px" title="山野小拾莲子70g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="山野小拾莲子70g">
+          
+              
+             山野小拾莲子70g
+          
+        </a></em><span>￥<i>11.8</i><i class="ri">￥15.6</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201903061515709035.jpg" width="180px" height="180px" title="山野小拾枸杞100g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="山野小拾枸杞100g">
+          
+              
+             山野小拾枸杞100g
+          
+        </a></em><span>￥<i>16.5</i><i class="ri">￥20.6</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805091009372016.jpg" width="180px" height="180px" title="河源淮山米粉+客家传统腐竹组合"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="河源淮山米粉+客家传统腐竹组合">
+          
+              
+                  河源淮山米粉+客家传统腐...
+              
+             
+          
+        </a></em><span>￥<i>49.8</i><i class="ri">￥56.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201712271108116046.jpg" width="180px" height="180px" title="大山合腐竹300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="大山合腐竹300g">
+          
+              
+             大山合腐竹300g
+          
+        </a></em><span>￥<i>21.8</i><i class="ri">￥26.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201801171756591004.jpg" width="180px" height="180px" title="盐烧照烧青花鱼礼盒装720g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="盐烧照烧青花鱼礼盒装720g">
+          
+              
+             盐烧照烧青花鱼礼盒装720g
+          
+        </a></em><span>￥<i>238</i><i class="ri">￥258</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201804231127943012.jpg" width="180px" height="180px" title="本港四宝礼盒"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="本港四宝礼盒">
+          
+              
+             本港四宝礼盒
+          
+        </a></em><span>￥<i>528</i><i class="ri">￥657</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj05" id="floor5">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">肉铺</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">营养饼干</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">水果糖</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">蜂蜜</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">方便面</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">酸奶</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551430448167.jpg" title="Voiz黄油味华夫饼干80g" alt="Voiz黄油味华夫饼干80g"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551430434830.jpg" title="台湾绿力水蜜桃汁490ml3" alt="台湾绿力水蜜桃汁490ml3"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj05">
+    <ul id="snacks">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201810301708876042.jpg" width="180px" height="180px" title="广发草原原味牛肉干228g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="广发草原原味牛肉干228g">
+          
+              
+             广发草原原味牛肉干228g
+          
+        </a></em><span>￥<i>89.9</i><i class="ri">￥98</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201809071707632028.jpg" width="180px" height="180px" title="美国星巴克摩卡281ml"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="美国星巴克摩卡281ml">
+          
+              
+             美国星巴克摩卡281ml
+          
+        </a></em><span>￥<i>19.8</i><i class="ri">￥22.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812171623177046.jpg" width="180px" height="180px" title="安佳纯牛奶礼盒装250m*10"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="安佳纯牛奶礼盒装250m*10">
+          
+              
+                  安佳纯牛奶礼盒装250m...
+              
+             
+          
+        </a></em><span>￥<i>69.9</i><i class="ri">￥88</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201804181108842002.jpg" width="180px" height="180px" title="卡士餐后一小时（250g*3）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="卡士餐后一小时（250g*3）">
+          
+              
+                  卡士餐后一小时（250g...
+              
+             
+          
+        </a></em><span>￥<i>39.9</i><i class="ri">￥42</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812191051519011.jpg" width="180px" height="180px" title="吉利莲吉馨牛奶巧克力制品礼盒200g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="吉利莲吉馨牛奶巧克力制品礼盒200g">
+          
+              
+                  吉利莲吉馨牛奶巧克力制品...
+              
+             
+          
+        </a></em><span>￥<i>99</i><i class="ri">￥120</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201809071810294030.jpg" width="180px" height="180px" title="美国星巴克原味咖啡281ml"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="美国星巴克原味咖啡281ml">
+          
+              
+             美国星巴克原味咖啡281ml
+          
+        </a></em><span>￥<i>19.8</i><i class="ri">￥22.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201901071948363049.jpg" width="180px" height="180px" title="暇之选湖南精选野山核桃仁280g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="暇之选湖南精选野山核桃仁280g">
+          
+              
+                  暇之选湖南精选野山核桃仁...
+              
+             
+          
+        </a></em><span>￥<i>72.5</i><i class="ri">￥86.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812291618517019.jpg" width="180px" height="180px" title="暇之选澳洲精选夏威夷果300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="暇之选澳洲精选夏威夷果300g">
+          
+              
+                  暇之选澳洲精选夏威夷果3...
+              
+             
+          
+        </a></em><span>￥<i>43.8</i><i class="ri">￥52.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812131629209057.jpg" width="180px" height="180px" title="不二家大棒棒糖果味10g*28支"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="不二家大棒棒糖果味10g*28支">
+          
+              
+                  不二家大棒棒糖果味10g...
+              
+             
+          
+        </a></em><span>￥<i>30</i><i class="ri">￥34.5</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201707260903301037.jpg" width="180px" height="180px" title="越南沙巴哇综合蔬果干100g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="越南沙巴哇综合蔬果干100g">
+          
+              
+             越南沙巴哇综合蔬果干100g
+          
+        </a></em><span>￥<i>15.8</i><i class="ri">￥19.9</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807021756657004.jpg" width="180px" height="180px" title="TATAWA榛果巧克力软馅曲奇饼干120g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="TATAWA榛果巧克力软馅曲奇饼干120g">
+          
+              
+                  TATAWA榛果巧克力软...
+              
+             
+          
+        </a></em><span>￥<i>12.8</i><i class="ri">￥14.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805071030453052.jpg" width="180px" height="180px" title="广御园榴莲蛋卷150g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="广御园榴莲蛋卷150g">
+          
+              
+             广御园榴莲蛋卷150g
+          
+        </a></em><span>￥<i>19.8</i><i class="ri">￥24.8</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj06" id="floor6">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">白葡萄酒</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">酱香白酒</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">黑啤</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">陈皮普洱</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">茶饼</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">白茶</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551430562119.jpg" title="龙塘普洱茶357g" alt="龙塘普洱茶357g"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551430522154.jpg" title="53度茅台迎宾酒500ml" alt="53度茅台迎宾酒500ml"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj06">
+    <ul id="goodWine">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807301441895045.jpg" width="180px" height="180px" title="法国博堡幸福密码红葡萄酒750ml"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="法国博堡幸福密码红葡萄酒750ml">
+          
+              
+                  法国博堡幸福密码红葡萄酒...
+              
+             
+          
+        </a></em><span>￥<i>320</i><i class="ri">￥450</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807301419295007.jpg" width="180px" height="180px" title="法国博堡香溢红葡萄酒750ml"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="法国博堡香溢红葡萄酒750ml">
+          
+              
+                  法国博堡香溢红葡萄酒75...
+              
+             
+          
+        </a></em><span>￥<i>306</i><i class="ri">￥488</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201801101007812047.jpg" width="180px" height="180px" title="八马（常规）白龙珠花茶112g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="八马（常规）白龙珠花茶112g">
+          
+              
+                  八马（常规）白龙珠花茶1...
+              
+             
+          
+        </a></em><span>￥<i>200</i><i class="ri">￥200</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201709060930573033.jpg" width="180px" height="180px" title="八马（常规）金色龙井500"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="八马（常规）金色龙井500">
+          
+              
+             八马（常规）金色龙井500
+          
+        </a></em><span>￥<i>500</i><i class="ri">￥500</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807301550773054.jpg" width="180px" height="180px" title="智利卡普象白葡萄酒750ml"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="智利卡普象白葡萄酒750ml">
+          
+              
+             智利卡普象白葡萄酒750ml
+          
+        </a></em><span>￥<i>168</i><i class="ri">￥188</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201809041511172016.jpg" width="180px" height="180px" title="52度金泸州壹号500ml"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="52度金泸州壹号500ml">
+          
+              
+             52度金泸州壹号500ml
+          
+        </a></em><span>￥<i>169</i><i class="ri">￥189</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201809031047487003.jpg" width="180px" height="180px" title="52度泸州老窖青瓷头曲500ml"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="52度泸州老窖青瓷头曲500ml">
+          
+              
+                  52度泸州老窖青瓷头曲5...
+              
+             
+          
+        </a></em><span>￥<i>186</i><i class="ri">￥199</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201808271402863013.jpg" width="180px" height="180px" title="BLREOR彼乐黑啤酒500mL"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="BLREOR彼乐黑啤酒500mL">
+          
+              
+                  BLREOR彼乐黑啤酒5...
+              
+             
+          
+        </a></em><span>￥<i>8.9</i><i class="ri">￥9.8</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201902261513998012.jpg" width="180px" height="180px" title="国色天香大红袍256g（盒）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="国色天香大红袍256g（盒）">
+          
+              
+             国色天香大红袍256g（盒）
+          
+        </a></em><span>￥<i>388</i><i class="ri">￥400</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201711071552242053.jpg" width="180px" height="180px" title="特等奖大红袍160g（盒）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="特等奖大红袍160g（盒）">
+          
+              
+             特等奖大红袍160g（盒）
+          
+        </a></em><span>￥<i>2380</i><i class="ri">￥2680</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201811172320474027.jpg" width="180px" height="180px" title="黑罐陈皮普洱250g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="黑罐陈皮普洱250g">
+          
+              
+             黑罐陈皮普洱250g
+          
+        </a></em><span>￥<i>680</i><i class="ri">￥888</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201801091756265035.jpg" width="180px" height="180px" title="八马五福临门便携装128g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="八马五福临门便携装128g">
+          
+              
+             八马五福临门便携装128g
+          
+        </a></em><span>￥<i>558</i><i class="ri">￥558</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj07" id="floor7">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">石斛</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">混合花</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">灵芝</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">蛋糕券</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">家居套餐</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">水果套餐</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551430635741.jpg" title="浪漫味道・向日葵+百合+桔梗花" alt="浪漫味道・向日葵+百合+桔梗花"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551430611536.jpg" title="印尼一级燕窝50g" alt="印尼一级燕窝50g"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj07">
+    <ul id="present">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812251723458017.jpg" width="180px" height="180px" title="2019春节家居生活套餐E6"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="2019春节家居生活套餐E6">
+          
+              
+             2019春节家居生活套餐E6
+          
+        </a></em><span>￥<i>888</i><i class="ri">￥999</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812201811549036.jpg" width="180px" height="180px" title="2019春节水果休闲套餐B3"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="2019春节水果休闲套餐B3">
+          
+              
+             2019春节水果休闲套餐B3
+          
+        </a></em><span>￥<i>228</i><i class="ri">￥268</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708231656102035.jpg" width="180px" height="180px" title="〖forever love〗满天星礼盒"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="〖forever love〗满天星礼盒">
+          
+              
+                  〖forever lov...
+              
+             
+          
+        </a></em><span>￥<i>268</i><i class="ri">￥388</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708231642779004.jpg" width="180px" height="180px" title="浪漫味道・绣球+香槟玫瑰"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="浪漫味道・绣球+香槟玫瑰">
+          
+              
+             浪漫味道・绣球+香槟玫瑰
+          
+        </a></em><span>￥<i>388</i><i class="ri">￥528</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812191423527010.jpg" width="180px" height="180px" title="2019春节健康粮油套餐A2"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="2019春节健康粮油套餐A2">
+          
+              
+             2019春节健康粮油套餐A2
+          
+        </a></em><span>￥<i>118</i><i class="ri">￥138</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201812201905807044.jpg" width="180px" height="180px" title="2019春节水果休闲套餐D3"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="2019春节水果休闲套餐D3">
+          
+              
+             2019春节水果休闲套餐D3
+          
+        </a></em><span>￥<i>558</i><i class="ri">￥598</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201611211411312039.jpg" width="180px" height="180px" title="印尼三角白燕盏250g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="印尼三角白燕盏250g">
+          
+              
+             印尼三角白燕盏250g
+          
+        </a></em><span>￥<i>4698</i><i class="ri">￥5816</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803301040118034.jpg" width="180px" height="180px" title="集友石斛+花旗参300g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="集友石斛+花旗参300g">
+          
+              
+             集友石斛+花旗参300g
+          
+        </a></em><span>￥<i>588</i><i class="ri">￥600</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201804031633963033.jpg" width="180px" height="180px" title="集友花胶（简装）250g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="集友花胶（简装）250g">
+          
+              
+             集友花胶（简装）250g
+          
+        </a></em><span>￥<i>688</i><i class="ri">￥820</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201804101355965023.jpg" width="180px" height="180px" title="集友南非4头鲍鱼500g"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="集友南非4头鲍鱼500g">
+          
+              
+             集友南非4头鲍鱼500g
+          
+        </a></em><span>￥<i>2800</i><i class="ri">￥3200</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201411281514724000.jpg" width="180px" height="180px" title="壹点壹客蛋糕卡三磅"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="壹点壹客蛋糕卡三磅">
+          
+              
+             壹点壹客蛋糕卡三磅
+          
+        </a></em><span>￥<i>398</i><i class="ri">￥400</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201411281515790039.jpg" width="180px" height="180px" title="壹点壹客蛋糕卡五磅"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="壹点壹客蛋糕卡五磅">
+          
+              
+             壹点壹客蛋糕卡五磅
+          
+        </a></em><span>￥<i>658</i><i class="ri">￥658</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj08" id="floor8">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">毛毯</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">披肩</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">行李箱</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">马克杯</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">盘碟碗</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">储物盒</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551430806040.jpg" title="富安娜清新夏被 如歌春风152210cm" alt="富安娜清新夏被 如歌春风152210cm"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551430763897.jpg" title="顺祥12头套装餐具（月光岩）457354" alt="顺祥12头套装餐具（月光岩）457354"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj08">
+    <ul id="kitchen">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201711171534882058.jpg" width="180px" height="180px" title="CK ACCACIA臻品四件套CGD17001"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="CK ACCACIA臻品四件套CGD17001">
+          
+              
+                  CK ACCACIA臻品...
+              
+             
+          
+        </a></em><span>￥<i>6900</i><i class="ri">￥7800</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201711281159763031.jpg" width="180px" height="180px" title="馨亭 冰丝软席三件套MLX-001"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="馨亭 冰丝软席三件套MLX-001">
+          
+              
+                  馨亭 冰丝软席三件套ML...
+              
+             
+          
+        </a></em><span>￥<i>598</i><i class="ri">￥788</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201903010945300038.jpg" width="180px" height="180px" title="双立人刀具十五件套ZW-K301"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="双立人刀具十五件套ZW-K301">
+          
+              
+                  双立人刀具十五件套ZW-...
+              
+             
+          
+        </a></em><span>￥<i>3780</i><i class="ri">￥3780</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201803091725792043.jpg" width="180px" height="180px" title="三能PIZZA刀"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="三能PIZZA刀">
+          
+              
+             三能PIZZA刀
+          
+        </a></em><span>￥<i>36.8</i><i class="ri">￥38</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708021038898041.jpg" width="180px" height="180px" title="内野超柔棉花糖2面巾礼盒JD22687-N"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="内野超柔棉花糖2面巾礼盒JD22687-N">
+          
+              
+                  内野超柔棉花糖2面巾礼盒...
+              
+             
+          
+        </a></em><span>￥<i>219</i><i class="ri">￥249</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201902281523993027.jpg" width="180px" height="180px" title="新秀丽四轮拉杆箱TQ7系列(20寸）箱蓝色55/20"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="新秀丽四轮拉杆箱TQ7系列(20寸）箱蓝色55/20">
+          
+              
+                  新秀丽四轮拉杆箱TQ7系...
+              
+             
+          
+        </a></em><span>￥<i>2180</i><i class="ri">￥2180</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/20171110151348050.jpg" width="180px" height="180px" title="爱华仕拉杆箱OCX6168（24寸）"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="爱华仕拉杆箱OCX6168（24寸）">
+          
+              
+                  爱华仕拉杆箱OCX616...
+              
+             
+          
+        </a></em><span>￥<i>1629</i><i class="ri">￥1799</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201902281456750003.jpg" width="180px" height="180px" title="新秀丽双肩包96Q*48017"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="新秀丽双肩包96Q*48017">
+          
+              
+                  新秀丽双肩包96Q*48...
+              
+             
+          
+        </a></em><span>￥<i>650</i><i class="ri">￥650</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201709121436353057.jpg" width="180px" height="180px" title="乐扣乐扣幻彩金真空保温杯450ml LHC6160FU"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="乐扣乐扣幻彩金真空保温杯450ml LHC6160FU">
+          
+              
+                  乐扣乐扣幻彩金真空保温杯...
+              
+             
+          
+        </a></em><span>￥<i>185</i><i class="ri">￥228</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708021001769027.jpg" width="180px" height="180px" title="乐扣乐扣果金咖啡壶0.8L LHC6231FU"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="乐扣乐扣果金咖啡壶0.8L LHC6231FU">
+          
+              
+                  乐扣乐扣果金咖啡壶0.8...
+              
+             
+          
+        </a></em><span>￥<i>188</i><i class="ri">￥248</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807230951170031.jpg" width="180px" height="180px" title="乐扣乐扣耐热玻璃保鲜盒（650ML)大圆形彩盒装 LLG907FU"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="乐扣乐扣耐热玻璃保鲜盒（650ML)大圆形彩盒装 LLG907FU">
+          
+              
+                  乐扣乐扣耐热玻璃保鲜盒（...
+              
+             
+          
+        </a></em><span>￥<i>57</i><i class="ri">￥97</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708021026907014.jpg" width="180px" height="180px" title="FORUOR IDO极简午餐套装FU-C50"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="FORUOR IDO极简午餐套装FU-C50">
+          
+              
+                  FORUOR IDO极简...
+              
+             
+          
+        </a></em><span>￥<i>188</i><i class="ri">￥228</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+<div class="ht-clss bj09" id="floor9">
+    <ul>
+    
+    
+        <li><a href="javascript:void(0);" target="_blank">车载电源</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">咖啡壶</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">电炖锅</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">搅拌机</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">咖啡机</a></li>
+    
+        <li><a href="javascript:void(0);" target="_blank">人体秤</a></li>
+    
+    
+    </ul>
+    
+    
+        <div class="cad-b"><a href="javascript:void(0);" target="_blank"><img src="images/1551430932394.jpg" title="乐扣乐扣-健康酷镜多功能电子人体秤LSC-B32FU" alt="乐扣乐扣-健康酷镜多功能电子人体秤LSC-B32FU"></a></div>
+    
+    
+        <div class="cad-a"><a href="javascript:void(0);" target="_blank"><img src="images/1551430874649.jpg" title="达氏桌面空气净化器DAC60G" alt="达氏桌面空气净化器DAC60G"></a></div>
+    
+    
+    <a href="javascript:void(0);" class="more">查看更多&gt;&gt;</a>
+</div>
+<div class="clear"></div>
+<div class="products-box bj_bj09">
+    <ul id="homeAppliances">
+    
+        
+        <!-- <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708011109181053.jpg" width="180px" height="180px" title="达氏桌面空气净化器DAC60G"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="达氏桌面空气净化器DAC60G">
+          
+              
+                  达氏桌面空气净化器DAC...
+              
+             
+          
+        </a></em><span>￥<i>820</i><i class="ri">￥848</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201805221039866024.jpg" width="180px" height="180px" title="Dyson戴森空气净化风扇 AM11"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="Dyson戴森空气净化风扇 AM11">
+          
+              
+                  Dyson戴森空气净化风...
+              
+             
+          
+        </a></em><span>￥<i>4690</i><i class="ri">￥4990</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807231136784005.jpg" width="180px" height="180px" title="灿坤纯臻微电脑隔水电炖锅 TSK-GW945"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="灿坤纯臻微电脑隔水电炖锅 TSK-GW945">
+          
+              
+                  灿坤纯臻微电脑隔水电炖锅...
+              
+             
+          
+        </a></em><span>￥<i>268</i><i class="ri">￥388</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708011127683019.jpg" width="180px" height="180px" title="乐扣乐扣旋钮式空气炸锅3.2L EJF137FU"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="乐扣乐扣旋钮式空气炸锅3.2L EJF137FU">
+          
+              
+                  乐扣乐扣旋钮式空气炸锅3...
+              
+             
+          
+        </a></em><span>￥<i>1880</i><i class="ri">￥1980</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807231026312002.jpg" width="180px" height="180px" title="灿坤唯品・电吹风 TSK-5687"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="灿坤唯品・电吹风 TSK-5687">
+          
+              
+                  灿坤唯品・电吹风 TSK...
+              
+             
+          
+        </a></em><span>￥<i>116</i><i class="ri">￥145</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807041713441012.png" width="180px" height="180px" title="乐扣乐扣心悦・电子人体秤LSC-B58FU"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="乐扣乐扣心悦・电子人体秤LSC-B58FU">
+          
+              
+                  乐扣乐扣心悦・电子人体秤...
+              
+             
+          
+        </a></em><span>￥<i>118</i><i class="ri">￥148</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201807041719403018.jpg" width="180px" height="180px" title="乐扣乐扣雅然・电子体重秤LSC-B68FU"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="乐扣乐扣雅然・电子体重秤LSC-B68FU">
+          
+              
+                  乐扣乐扣雅然・电子体重秤...
+              
+             
+          
+        </a></em><span>￥<i>128</i><i class="ri">￥168</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201810221003510013.jpg" width="180px" height="180px" title="网易严选电动硅胶洁面仪"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="网易严选电动硅胶洁面仪">
+          
+              
+             网易严选电动硅胶洁面仪
+          
+        </a></em><span>￥<i>269</i><i class="ri">￥330</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201709061158634022.jpg" width="180px" height="180px" title="EUPA博雅电热咖啡壶 TSK-G1428A"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="EUPA博雅电热咖啡壶 TSK-G1428A">
+          
+              
+                  EUPA博雅电热咖啡壶 ...
+              
+             
+          
+        </a></em><span>￥<i>288</i><i class="ri">￥328</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201709081114624017.jpg" width="180px" height="180px" title="EUPA多功能电火锅TSK-GW978AG"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="EUPA多功能电火锅TSK-GW978AG">
+          
+              
+                  EUPA多功能电火锅TS...
+              
+             
+          
+        </a></em><span>￥<i>718</i><i class="ri">￥998</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708011653660053.jpg" width="180px" height="180px" title="EUPA 卓越 TOGO 果汁机 TSK-9652APQ1"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="EUPA 卓越 TOGO 果汁机 TSK-9652APQ1">
+          
+              
+                  EUPA 卓越 TOGO...
+              
+             
+          
+        </a></em><span>￥<i>308</i><i class="ri">￥348</i></span></p>
+        </li>
+        
+        <li>
+        <div class="img"><a href="javascript:void(0);"><img src="images/201708011738840001.jpg" width="180px" height="180px" title="FORUOR IDO香草物语蓝牙音乐杯FU-FA078"></a></div>
+        <p><em style="height:30px;"><a href="javascript:void(0);" title="FORUOR IDO香草物语蓝牙音乐杯FU-FA078">
+          
+              
+                  FORUOR IDO香草...
+              
+             
+          
+        </a></em><span>￥<i>268</i><i class="ri">￥299</i></span></p>
+        </li> -->
+        
+    
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="clear"></div>
+
+<!--end products-box bj01-->
+    <!-- banner 
+    <div style="padding-top:10px;clear:both;margin-bottom:-40px;">
+    <a href="/event/GFcard.html"  target="_blank" alt="广发开卡有礼，精美依谷套餐礼盒等你选择"><img src="/static/images/banner/GFcard.png" width="1208px"></img></a>
+    </div>-->
+
+</div>  
+</div>
+<div id="bottom"><div class="copy">
+    <div class="links">
+        <ul>
+            <li class="i-xian"><strong>基地直供 冷链直达</strong>
+                <p>优选蔬果，从基地到餐桌<br>全程冷链直达</p></li>
+            <li class="i-kuai"><strong>同城快递 次日直达</strong>
+                <p>当天16点前下单<br>第二天送达（限深圳同城）</p></li>
+            <li class="i-fu"><strong>在线支付 灵活便利</strong>
+                <p>多样化支付方式，线上线下<br>皆可付款</p></li>
+            <li class="i-tui"><strong>退换无忧 服务保障</strong>
+                <p>24小时退换货，流程通畅无阻<br>省时省心</p></li>
+        </ul>
+    </div>
+    
+    <div class="b-news" id="newsList">
+
+
+<div class="nr-lf">
+    <div class="nr-lf-ti">依谷有话说:</div>
+    <div class="nr-lf-img">
+        <a href="javascript:void(0);" target="_blank"><img src="images/1484587824775.jpg" height="135" width="217" style="box-shadow: 0 0 5px #333;" alt=""></a>
+    </div>
+    <div class="nr-lf-news">
+        <ul>
+            
+                
+                    <li>
+                        <a href="javascript:void(0);" title="春节期间物流配送公告" target="_blank"><span>春节期间物流配送公告</span></a>
+                        <p><a href="javascript:void(0);" title="春节期间物流配送公告" target="_blank">尊敬的依谷网客户：您好！值此新春佳节来临之际，依谷网在此感谢您长期以来对我们的信任与支持！为了不影响您的正常购物，现将春节期间有关配送服务事项告知如下：由于多数第三方快递、物流公司停单放假，1月28日省外订单将暂停配送（新疆、内蒙、西藏、黑龙江、青海、甘肃等偏远地区已停止发货），2月3日省内订单将暂停配送，生活用品类商品1月23日将暂停配送，实际配送时间以商品下单提示为准，2月14日省内外配送均恢复正常。400客服电话以及在线客服将于2月4日至2月12日暂停服务，将于2月13日恢复服务。不便之处，敬请谅解！&nbsp;最后依谷网恭祝您春节快乐、阖家幸福！&nbsp;</a></p>
+                    </li>
+                
+                    <li>
+                        <a href="javascript:void(0);" title="关于客户热线4001100755暂停服务的通知&#8203;" target="_blank"><span>关于客户热线4001100755暂停服务的通知&#8203;</span></a>
+                        <p><a href="javascript:void(0);" title="关于客户热线4001100755暂停服务的通知&#8203;" target="_blank">尊敬的依谷网客户：您好，由于系统升级，4001100755客服电话及在线客服将暂时无法正常使用。如有不便敬请谅解，感谢您对依谷网的支持！</a></p>
+                    </li>
+                
+                    <li>
+                        <a href="javascript:void(0);" title="关于客户热线4001100755暂停服务的通知" target="_blank"><span>关于客户热线4001100755暂停服务的通知</span></a>
+                        <p><a href="javascript:void(0);" title="关于客户热线4001100755暂停服务的通知" target="_blank">关于客户热线4001100755暂停服务的通知尊敬的依谷网客户：&nbsp;您好，由于系统升级，4001100755客服电话将暂时无法正常使用，期间您可使用在线客服进咨询，如有不便还请谅解，感谢您对依谷网的支持！</a></p>
+                    </li>
+                
+            
+        </ul>
+    </div>
+</div>
+<div class="nr-ri">
+    <ul>
+        <li><a href="javascript:void(0);" target="_blank"><img src="images/index-about.jpg"></a></li>
+        <li><a href="javascript:void(0);" target="_blank"><img src="images/index-commonweal.jpg"></a></li>
+        <li><a href="javascript:void(0);" target="_blank"><img src="images/index-statement.jpg"></a></li>
+        <li><a href="javascript:void(0);" target="_blank"><img src="images/index-job.jpg"></a></li>
+    </ul>
+</div></div>
+    <div class="b-menu">
+        <dl class="c1">
+            <dt>购物指南</dt>
+            <dd><a href="javascript:void(0);">会员注册</a></dd>
+            <dd><a href="javascript:void(0);">套餐卡使用方法</a></dd>
+            <dd><a href="javascript:void(0);">谷穗卡使用方法</a></dd>
+            <dd><a href="javascript:void(0);">积分兑换</a></dd>
+        </dl>
+        <dl class="c2">
+            <dt>付款方式</dt>
+            <dd><a href="javascript:void(0);">线上支付</a></dd>
+            <dd><a href="javascript:void(0);">发票说明</a></dd>
+            <dd><a href="javascript:void(0);">余额支付</a></dd>
+        </dl>
+        <dl class="c3">
+            <dt>商品配送</dt>
+            <dd><a href="javascript:void(0);">买家自取</a></dd>
+            <dd><a href="javascript:void(0);">配送时间</a></dd>
+            <dd><a href="javascript:void(0);">冷链配送送</a></dd>
+            <dd><a href="javascript:void(0);">送货范围及费用</a></dd>
+        </dl>
+        <dl class="c4">
+            <dt>售后服务</dt>
+            <dd><a href="javascript:void(0);">签收与评价</a></dd>
+            <dd><a href="javascript:void(0);">常见问题</a></dd>
+            <dd><a href="javascript:void(0);">退换货说明</a></dd>
+            <dd><a href="javascript:void(0);">品质保障</a></dd>
+        </dl>
+        <div class="b-tel"><h3>依谷微信</h3><img src="images/index-bottom-ygw-wx.jpg"></div>
+        <div class="b-tel"><h3>依谷网APP</h3><img src="images/index-bottom-ygw-app.jpg"></div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="t-menu">
+        <p class="m">
+        <a href="javascript:void(0);" class="f" target="_blank">关于依谷</a>
+        <a href="javascript:void(0);" target="_blank">加入依谷</a>
+        <a href="javascript:void(0);" target="_blank">联系依谷</a>
+        <a href="javascript:void(0);" target="_blank">免责声明</a>
+        <a href="javascript:void(0);">友情链接</a>
+        <a href="javascript:void(0);" target="_blank">依谷资讯</a>
+        <a href="javascript:void(0);">网站地图</a>
+        <a href="javascript:void(0);" >客服在线</a>
+        </p>
+        <p class="l">
+            <a href="javascript:void(0);" target="_blank"><img src="images/dzswsfqy.png" alt="广东省电子商务示范企业" width="130px" height="50px"></a>
+            <a href="https://ss.knet.cn/verifyseal.dll?sn=2011070100100011144&amp;ct=df&amp;a=1&amp;pa=0.038981622783467174" target="_blank"><img src="images/kxwz.jpg" width="130" height="50"></a>
+            <a href="javascript:void(0);" target="_blank">
+            <img src="images/gxyz.jpg" width="130" height="50" alt="众信验证"></a>&nbsp;&nbsp;
+            <a href="javascript:void(0);" target="_blank">
+                <img src="images/govIcon.gif" height="50" alt="工商网监"></a>&nbsp;&nbsp;
+            <a href="https://web.xf315.org/" target="_blank"><img src="images/xfwq.jpg" width="130" height="50" alt="深圳市消费维权服务站点"></a>
+            <a href="javascript:void(0);" target="_blank"><img src="images/zmpp.jpg" width="130" height="50" alt="深圳知名品牌"></a>
+            <a href="javascript:void(0);" target="_blank"><img src="images/spltxkz.png" width="130px" height="50px" alt="食品流通许可证"></a>
+        </p>
+        <p>Copyright &#169; 2010-2019 所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。<br>
+        <a rel="nofollow" target="_blank" href="http://www.miibeian.gov.cn/">粤ICP备11016505号-9</a> | All Rights Reserved 深圳依谷网版权所有 网络实名：<a href="javascript:void(0);">依谷网</a></p>
+     </div>
+</div>
+
+
+<noscript><a href=" http://www.51.la/?4085959" target="_blank"><img alt="www.egu365.com" src=" http://img.users.51.la/4085959.asp" style="border:none" /></a></noscript>
+</div>
+
+<div class="fd-menu" style="display: block;">
+    <li class="floor0"><a href="javascript:void(0);">新品上市</a></li>
+    <li class="floor1"><a href="./html/goods_list.html">新鲜水果</a></li>
+    <li class="floor2"><a href="javascript:void(0);">绿色菜篮</a></li>
+    <li class="floor3"><a href="javascript:void(0);">粮油调味</a></li>
+    <li class="floor4"><a href="javascript:void(0);">干货特产</a></li>
+    <li class="floor5"><a href="javascript:void(0);">零食饮料</a></li>
+    <li class="floor6"><a href="javascript:void(0);">美酒茗茶</a></li>
+    <li class="floor7"><a href="javascript:void(0);">礼品礼券</a></li>
+    <li class="floor8"><a href="javascript:void(0);">家居厨卫</a></li>
+    <li class="floor9"><a href="javascript:void(0);">创意家电</a></li>
+    <li class="icon-bjt"><a href="javascript:void(0);">顶部</a></li>
+</div><div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"> 
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

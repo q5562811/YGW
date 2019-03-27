@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>登录--依谷网</title></head>
+        <link href="../css/css_admin.css" style="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/layer.css" id="layuicss-skinlayercss">
+        <link rel="stylesheet" href="../css/style.css" id="layuicss-skinskinmoonstylecss">
+        <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../js/common_1.js"></script>
+        <script type="text/javascript" src="../js/sign_in.js"></script>
+    <body>
+        <form action="" id="s_form" method="post">
+            <div class="amdin-login-bg">
+                <img src="../images/admin-bg.jpg" style="position: fixed;" height="100%" width="100%"></div>
+            <div class="amdin-login-main"></div>
+            <div class="amdin-login-nr">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" target="_self">
+                            <img src="../images/logo_login.png" alt="点击进入依谷首页"></a>
+                    </li>
+                    <li class="amdin-login-nr-wz">登录
+                        <span>还没有账号？
+                            <a href="sign_up.html">注册</a></span>
+                    </li>
+                    <li>
+                        <strong>
+                            <img src="../images/register_01.png"></strong>
+                        <input type="text" id="name" name="membername" class="amdin-login-nr-k" placeholder="手机号/用户名"></li>
+                    <li id="name_tips">&nbsp;</li>
+                    <li>
+                        <strong>
+                            <img src="../images/register_02.png"></strong>
+                        <input type="password" id="pwd" name="memberpwd" class="amdin-login-nr-k" placeholder="密码"></li>
+                    <li id="pwd_tips">&nbsp;</li>
+                    <li>
+                        <h1 style="position:relative;top:8px;font-size: 16px;">验证码</h1>
+                        <input type="text" id="r_code" name="r_code" class="amdin-login-nr-k-x" maxlength="4" placeholder="验证码" >
+                        <div class="">
+                            <button id="v_code_sms" class="amdin-register-nr-k-x-r-s" type="button">获取验证码</button>
+                        </div>
+                    </li>
+                    <li>&nbsp;</li>
+                    <li>
+                        <div class="squaredTwo">
+                            <input type="checkbox" value="None" id="squaredTwo" name="check" checked="">
+                            <label for="squaredTwo"></label>
+                        </div>
+                        <h1>记住我</h1>
+                        <span>
+                            <a href="javascript:void(0);" style="color: #fff;">忘记密码？</a></span>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <div class="amdin-login-nr-login" id="signBtn">
+                                <font style="color: #333; font-size: 20px;">登 录</font>
+                                <input id="redirect_uri" value="/myEgu.action" type="hidden"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="../images/admin-login-san.png"></li>
+                </ul>
+                <div class="login_img">
+                    <a href="javascript:void(0);">
+                        <img src="../images/login_sina.png"></a>
+                    <a href="javascript:void(0);">
+                        <img border="0" alt="QQ登录" src="../images/login_qq.png"></a>
+                    <a herf="javascript:void(0);" onclick="wxlogin();">
+                        <img src="../images/login_dou.png"></a>
+                </div>
+            </div>
+        </form>
+        <iframe src="https://graph.qq.com/jsdkproxy/PMProxy.html#1.0.1" style="width: 0px; height: 0px; display: none; overflow: hidden;"></iframe>
+        <div class="layui-layer layui-layer-dialog layui-layer-border layer-ext-moon layer-anim" id="layui-layer8" type="dialog" times="8" showtime="3000" contype="string" style="z-index: 19891022; top: 139px; left: 630.5px; display:none">
+            <div id="xuanran" class="layui-layer-content layui-layer-padding">
+                <i class="layui-layer-ico layui-layer-ico0"></i>
+            </div>
+            <span class="layui-layer-setwin"></span>
+        </div>
+    </body>
+
+</html>
